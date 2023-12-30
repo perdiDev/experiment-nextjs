@@ -34,3 +34,24 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+```js
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyD1TIgcveNzgrBCJpj8lhsT0XA0RU16FqU",
+  authDomain: "to-do-app-df033.firebaseapp.com",
+  projectId: "to-do-app-df033",
+  storageBucket: "to-do-app-df033.appspot.com",
+  messagingSenderId: "1055519747282",
+  appId: "1:1055519747282:web:666bff7d038776ff98110b"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+```
